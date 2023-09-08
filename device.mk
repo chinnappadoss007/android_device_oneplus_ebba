@@ -28,7 +28,7 @@ $(call inherit-product-if-exists, vendor/gapps/basic/config.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-derp
 
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
