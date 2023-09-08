@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/ebba/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ebba
+PRODUCT_NAME := derp_ebba
 PRODUCT_DEVICE := ebba
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
